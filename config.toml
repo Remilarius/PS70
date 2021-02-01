@@ -1,5 +1,5 @@
 title = "Osprey Delight Demo"
-baseURL = "https://example.com"
+baseURL = "https://remilarius.github.io/PS70/"
 languageCode = "en-US"
 theme = "osprey-delight"
 tags = ["personal", "homepage", "portfolio"]
