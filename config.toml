@@ -21,7 +21,7 @@ pygmentsUseClasses = true
   #   Make sure that the image does not overlay the nav links. Don't be afraid of experimenting! 
   logoSmall = "favicon.png"
   favicon = "favicon.png"
-  opengraphImage = "/images/osprey-delight.png"
+  opengraphImage = "./images/osprey-delight.png"
   googleTagManager = ""
   # [bool] The following will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html'.
