@@ -15,7 +15,7 @@ pygmentsUseClasses = true
   email = ""
   description = "osprey-delight example site"
   tagline = "Hi there! Check out this theme."
-  logoBig = "/images/osprey-delight-logo.png"
+  logoBig = "./images/osprey-delight-logo.png"
   # [str] This is the logo that will be shown in the left corner of the nav bar.
   #   Usually, you would like to use something bigger than a favicon - but not too big either.
   #   Make sure that the image does not overlay the nav links. Don't be afraid of experimenting! 
