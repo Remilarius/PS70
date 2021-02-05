@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Osprey Delight Demo</title>
+    <title>Joy Lin</title>
     <link>https://remilarius.github.io/PS70/</link>
-    <description>Recent content on Osprey Delight Demo</description>
+    <description>Recent content on Joy Lin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 18 Sep 2019 21:57:17 -0700</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/index.xml" rel="self" type="application/rss+xml" />
@@ -104,7 +104,7 @@ Check it out.</description>
       <pubDate>Tue, 27 Jun 2017 17:39:21 -0700</pubDate>
       
       <guid>https://remilarius.github.io/PS70/about/</guid>
-      <description>And here&amp;rsquo;s my repo! Osprey Delight is a sugar-free version of the awesome Osprey theme by Toma Nistor for Hugo.
+      <description>And here&amp;rsquo;s my repo! Joy is cool
 It tastes a bit different than the original (hence the &amp;ldquo;light&amp;rdquo; in the name) but also adds some new functionality &amp;ndash; hopefully to your delight.
 Have fun using it!</description>
     </item>

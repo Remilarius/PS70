@@ -1,4 +1,4 @@
-title = "Osprey Delight Demo"
+title = "Joy Lin"
 baseURL = "https://remilarius.github.io/PS70/"
 languageCode = "en-US"
 theme = "osprey-delight"
@@ -9,19 +9,21 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 enableEmoji = true
 pygmentsUseClasses = true
 
+staticDir = ["static", "images"]
+
 ## Generic theme parameters:
 [Params]
   author = "kdevo"
-  email = ""
+  email = "jialin@college.harvard.ed"
   description = "osprey-delight example site"
-  tagline = "Hi there! Check out this theme."
-  logoBig = "./images/osprey-delight-logo.png"
+  tagline = "Hi there! Check out my documentation."
+  logoBig = "osprey-delight-logo.png"
   # [str] This is the logo that will be shown in the left corner of the nav bar.
   #   Usually, you would like to use something bigger than a favicon - but not too big either.
   #   Make sure that the image does not overlay the nav links. Don't be afraid of experimenting! 
-  logoSmall = "favicon.png"
-  favicon = "favicon.png"
-  opengraphImage = "./images/osprey-delight.png"
+  logoSmall = "anchoricon.png"
+  favicon = "anchoricon.png"
+  opengraphImage = "images/osprey-delight.png"
   googleTagManager = ""
   # [bool] The following will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html'.
@@ -41,7 +43,7 @@ pygmentsUseClasses = true
   # [str] Link to your LinkedIn.
   linkedin = ""
   # [str] Link to your GitHub.
-  github = "https://github.com/kdevo/osprey-delight"
+  github = "https://github.com/Remilarius"
   # [str] Link to your Facebook.
   facebook = ""
   # [str] Link to your Instagram.
