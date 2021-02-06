@@ -23,7 +23,7 @@ staticDir = ["static", "images"]
   #   Make sure that the image does not overlay the nav links. Don't be afraid of experimenting! 
   logoSmall = "anchoricon.png"
   favicon = "anchoricon.png"
-  opengraphImage = "images/osprey-delight.png"
+  opengraphImage = "osprey-delight.png"
   googleTagManager = ""
   # [bool] The following will enforce redirection to the baseURL for all sub-directories/-pages.
   #   Example: If you create about.md, Hugo will also create a '/about/index.html'.
@@ -47,7 +47,7 @@ staticDir = ["static", "images"]
   # [str] Link to your Facebook.
   facebook = ""
   # [str] Link to your Instagram.
-  # instagram = ""
+  # instagram = "https://www.instagram.com/torrisdeinferos/"
   # [str] Link to your StackOverflow.
   stackoverflow = ""
 
@@ -90,17 +90,17 @@ staticDir = ["static", "images"]
   url  = "/#work"
   weight = 2
 [[menu.main]]
-  name = "Blog"
+  name = "PS70"
   url  = "/#blog"
   weight = 3
 [[menu.main]]
   name = "Contact"
   url  = "/#contact"
   weight = 4
-[[menu.main]]
+#[[menu.main]]
   # Use icon here to neatly back reference an external site/blog/whatever:
-  pre = "<i class='icon icon-link-ext'></i>&nbsp;"
-  name = ""
-  url  = "https://pyotek.dev"
-  weight = 5
+  #pre = "<i class='icon icon-link-ext'></i>&nbsp;"
+  #name = ""
+  #url  = "https://pyotek.dev"
+  #weight = 5
 

@@ -124,7 +124,7 @@ nav {
   bottom: 0;
   width: 100%;
   height: $vertical-rhythm * 2;
-  background-color: coral;
+  background-color: lightseagreen;
   // box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
   text-align: center;
 
@@ -255,9 +255,9 @@ a > .icon {
 
 .contact {
   width: 100%;
-  padding-bottom: $vertical-rhythm * 2;
+  padding-bottom: $vertical-rhythm * 1;
   // TODO(kdevo): Maybe consider to change this to white if blog is not enabled:
-  background-color: $smoke;
+  background-color: wheat;
 
   form {
     margin-top: $vertical-rhythm;

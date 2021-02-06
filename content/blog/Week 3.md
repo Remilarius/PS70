@@ -1,6 +1,6 @@
 +++
 author = "Hugo Authors"
-title = "Placeholder Text"
+title = "Week 3: Hand Tools and Fabrication"
 date = "2019-03-09"
 description = "Lorem Ipsum Dolor Si Amet"
 tags = [
