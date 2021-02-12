@@ -7,10 +7,10 @@
 
   <title>
     
-    Math Typesetting | Osprey Delight Demo
+    Week 2: 2D Design &amp; Cutting | Joy Lin
   </title>
 
-  <meta name="title" content="Math Typesetting | Osprey Delight Demo">
+  <meta name="title" content="Week 2: 2D Design &amp; Cutting | Joy Lin">
 
   <meta charset="utf-8">
   
@@ -20,32 +20,32 @@
   <meta name="referrer" content="no-referrer-when-downgrade">
   <base href="https://remilarius.github.io/PS70/">
 
-  <meta name="description" content="A brief guide to setup KaTeX">
+  <meta name="description" content="A brief description of Hugo Shortcodes">
 
   <meta name="author" content="kdevo">
 
   
 
-  <meta property="og:title" content="Math Typesetting | Osprey Delight Demo">
+  <meta property="og:title" content="Week 2: 2D Design &amp; Cutting | Joy Lin">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://remilarius.github.io/PS70/">
 
   <meta property="og:image" content="https://remilarius.github.io/PS70//images/osprey-delight.png">
 
-  <meta name="og:description" content="A brief guide to setup KaTeX">
+  <meta name="og:description" content="A brief description of Hugo Shortcodes">
 
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="anchoricon.png">
 
   <meta name="theme-color" content="#0097a7">
 
-  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/math-typesetting/">
+  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week2/">
   
   
 
   <link rel="stylesheet" href="https://remilarius.github.io/PS70/style.8bf9e65afd7249b538482c017b52bc4aab6c35fb771c80a22694935428991e48.css" type="text/css">
 
   <script type="application/ld+json">
-  {"@context":"http://www.schema.org","@type":"Person","@id":"https://remilarius.github.io/PS70/","name":"kdevo","url":"https://remilarius.github.io/PS70/","description":"osprey-delight example site","sameAs":["","https://github.com/kdevo/osprey-delight","","",""]}
+  {"@context":"http://www.schema.org","@type":"Person","@id":"https://remilarius.github.io/PS70/","name":"kdevo","url":"https://remilarius.github.io/PS70/","description":"osprey-delight example site","sameAs":["","https://github.com/Remilarius","","",""]}
   </script>
 
   <style>.lazyload{opacity:.0001;}.logo .lazyload{min-width:10em;}</style>
@@ -59,7 +59,7 @@
 
 <nav class="row middle-xs center-xs">
   <div class="col-xs-6 col-sm-1 logo">
-    <a href="/PS70/#"><img data-src="favicon.png" class="lazyload" lazyload="on" alt="Osprey Delight Demo"></a>
+    <a href="/PS70/#"><img data-src="anchoricon.png" class="lazyload" lazyload="on" alt="Joy Lin"></a>
   </div>
     
       <div class="col-xs-3 col-sm-2 nav-item">
@@ -76,10 +76,6 @@
     
       <div class="col-xs-3 col-sm-2 nav-item">
         <h3><a href="/PS70/#contact">Contact</a></h3>
-      </div>
-    
-      <div class="col-xs-3 col-sm-2 nav-item">
-        <h3><a href="https://pyotek.dev"><i class='icon icon-link-ext'></i>&nbsp;</a></h3>
       </div>
     
   <div class="col-xs-6 col-sm-1 nav-toggle">
@@ -101,8 +97,6 @@
       
         <div class="col-xs-12"><h1><a href="/PS70/#contact">Contact</a></h1></div>
       
-        <div class="col-xs-12"><h1><a href="https://pyotek.dev"><i class='icon icon-link-ext'></i>&nbsp;</a></h1></div>
-      
     </div>
   </div>
 </section>
@@ -111,43 +105,42 @@
 
       <section class="container">
         <section class="content">
-          <h1> Math Typesetting </h1>
+          <h1> Week 2: 2D Design &amp; Cutting </h1>
 
             <div class="sub-header">
-              March 8, 2019 · One minute read
+              February 1, 2021 · One minute read
             </div>
 
           <article class="entry-content">
-            <p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
-<p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
+            <h2 id="part-1-circuits">Part 1: Circuits</h2>
+<p>I constructed a simple circuit in TinkerCad to see what it&rsquo;s like before building it in real life with the 	parts in the kit.</p>
+<p><img src="circuits.jpg" alt="Circuits"></p>
+<h2 id="part-2-press-fit-kit">Part 2: Press-Fit Kit</h2>
+<p>Since I wasn&rsquo;t constrained by having to make a core mechanism with 2D design this time around, I decided to make a sliced model of a boat with a center mast and two back masts.</p>
+<h3 id="trimaran">Trimaran</h3>
+<p><img src="trimaran/trimaranassem.png" alt="Trimaran"></p>
+<p>I did not concern myself with tolerancing and did all the parameters in inches. I was given the thickness of the material, cardboard, to be 4.3mm (0.169in). Most necessary corners were filleted to prevent stress buildup.</p>
+<h3 id="parts">Parts</h3>
 <ul>
-<li>Create a partial under <code>/layouts/partials/math.html</code></li>
-<li>Within this partial reference the <a href="https://katex.org/docs/autorender.html">Auto-render Extension</a> or host these scripts locally.</li>
-<li>Include the partial in your templates like so:</li>
+<li>6x Body Planks</li>
+<li>4x Ship Body</li>
+<li>2x Ship Hull</li>
+<li>2x Center Mast</li>
+<li>2x Back Mast</li>
+<li>3x Center Mast Clips</li>
+<li>2x Side Mast Clips</li>
 </ul>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="o">{{</span> <span class="k">if</span> or .Params.math .Site.Params.math <span class="o">}}</span>
-<span class="o">{{</span> partial <span class="s2">&#34;math.html&#34;</span> . <span class="o">}}</span>
-<span class="o">{{</span> end <span class="o">}}</span>
-</code></pre></div><ul>
-<li>To enable KaTex globally set the parameter <code>math</code> to <code>true</code> in a project&rsquo;s configuration</li>
-<li>To enable KaTex on a per page basis include the parameter <code>math: true</code> in content files</li>
-</ul>
-<p><strong>Note:</strong> Use the online reference of <a href="https://katex.org/docs/supported.html">Supported TeX Functions</a></p>
+<p>I worked with Haeyun and Kathryn and they added decoratives to the ship like people, barrels, and cannons.</p>
+<p>Haeyun was able to pick up the lasercut pieces and assemble the boat without too much trouble. (02/08/2021)</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
-<h3 id="examples">Examples</h3>
-
-<p>Block math:
-$$
-\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$</p>
           </article>
 
           <div class="pagination">
             
-              <a href="https://remilarius.github.io/PS70/blog/emoji-support/">&laquo; Emoji Support</a>
+              <a href="https://remilarius.github.io/PS70/blog/week1/">&laquo; Week 1: Intro and Documentation</a>
             
-            
-              <a href="https://remilarius.github.io/PS70/blog/placeholder-text/">Placeholder Text &raquo;</a>
             
           </div>
         </section>
@@ -176,7 +169,7 @@ $$</p>
   <div class="col-xs-2">
       <a target="_blank" rel="noopener" href=""><i class="icon icon-facebook"></i></a>
     </div><div class="col-xs-2">
-      <a target="_blank" rel="noopener" href="https://github.com/kdevo/osprey-delight"><i class="icon icon-github"></i></a>
+      <a target="_blank" rel="noopener" href="https://github.com/Remilarius"><i class="icon icon-github"></i></a>
     </div><div class="col-xs-2">
       <a target="_blank" rel="noopener" href=""><i class="icon icon-linkedin"></i></a>
     </div><div class="col-xs-2">
@@ -187,7 +180,7 @@ $$</p>
   <div class="col-xs-12">
       <small>
       
-      Copyright &copy; 2021 Osprey Delight Demo
+      Copyright &copy; 2021 Joy Lin
       
       <div class="col-xs-12">
           <small>Theme: <a href="https://github.com/kdevo/osprey-delight" target="_blank">osprey-delight</a> (fork of <a href="https://github.com/tomanistor/osprey" target="_blank">osprey</a>).</small>

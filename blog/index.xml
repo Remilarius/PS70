@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Osprey Delight Demo</title>
+    <title>Posts on Joy Lin</title>
     <link>https://remilarius.github.io/PS70/blog/</link>
-    <description>Recent content in Posts on Osprey Delight Demo</description>
+    <description>Recent content in Posts on Joy Lin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 2: 2D Design &amp; Cutting</title>
+      <link>https://remilarius.github.io/PS70/blog/week2/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week2/</guid>
+      <description>Part 1: Circuits I constructed a simple circuit in TinkerCad to see what it&amp;rsquo;s like before building it in real life with the parts in the kit.
+Part 2: Press-Fit Kit Since I wasn&amp;rsquo;t constrained by having to make a core mechanism with 2D design this time around, I decided to make a sliced model of a boat with a center mast and two back masts.
+Trimaran I did not concern myself with tolerancing and did all the parameters in inches.</description>
+    </item>
+    
+    <item>
+      <title>Week 1: Intro and Documentation</title>
+      <link>https://remilarius.github.io/PS70/blog/week1/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week1/</guid>
+      <description>Documentation and website setup.
+Process I was lured into using a static site generator instead of the usual HTML and CSS because it woulld require less coding. Andrew and I chose the same theme to share the burden of learning to manipulate and Sean helped us set it up.
+We didn&amp;rsquo;t read the READme and that&amp;rsquo;s where the problems started.
+Problems that were resolved Things I&amp;rsquo;m still trying to figure how to do with Hugo Images -Resize images so they don&amp;rsquo;t take up the entire screen.</description>
+    </item>
+    
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://remilarius.github.io/PS70/blog/markdown-syntax/</link>
@@ -17,39 +40,12 @@
     </item>
     
     <item>
-      <title>Rich Content</title>
-      <link>https://remilarius.github.io/PS70/blog/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://remilarius.github.io/PS70/blog/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>Placeholder Text</title>
       <link>https://remilarius.github.io/PS70/blog/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://remilarius.github.io/PS70/blog/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://remilarius.github.io/PS70/blog/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://remilarius.github.io/PS70/blog/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://remilarius.github.io/PS70/blog/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://remilarius.github.io/PS70/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
   </channel>
