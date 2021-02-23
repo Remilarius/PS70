@@ -38,5 +38,8 @@ I did not concern myself with tolerancing and did all the parameters in inches. 
 I worked with Haeyun and Kathryn and they added decoratives to the ship like people, barrels, and cannons.
 
 Haeyun was able to pick up the lasercut pieces and assemble the boat without too much trouble. (02/08/2021)
+
+[Click to download zipped file](files/Trimaran.zip) 
+
 <!--![Zipped File](Trimaran.zip)-->
 <!---![Center Mast](trimaran/centermast.png)![Center Mast Clip](trimaran/centermastclip.png)--->
