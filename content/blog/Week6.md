@@ -1,6 +1,6 @@
 ---
-title: "Week6"
-date: 2021-03-09T14:28:09-06:00
+title: "Week 6: Electronic Input Devices"
+date: 2021-03-09
 draft: true
 ---
 
