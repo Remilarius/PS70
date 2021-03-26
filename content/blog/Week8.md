@@ -1,7 +1,7 @@
 ---
 title: "Week 8: Radio Communication"
 date: 2021-03-21
-draft: true
+draft: false
 ---
 
 ![FTDI programmer](Week8/FDTI.jpg)
