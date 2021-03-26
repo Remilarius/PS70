@@ -92,6 +92,17 @@ It came out really deformed on the top and sides, unusable.
     </item>
     
     <item>
+      <title>Week 4: Microcontroller Programming</title>
+      <link>https://remilarius.github.io/PS70/blog/week4/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week4/</guid>
+      <description>Piezobuzzer Circuit I wanted to play some music with a piezo buzzer since I was given the basics in ES50, so I decided to map over knowledge from the class and use the materials from PS70 to make something more extensive.
+I used the HUZZAH Feather board instead of the Metro Express or Arduino MKRZero and that required downloading the associated libaries and packets.
+TinkerCad Mockup w/Single pin I built a quick circuit in TinkerCad to make sure the LED and Piezobuzzer would work as expected, the only modfication I would have to make to this would be to seperate the pin inputs for the LED and Piezo buzzer since they&amp;rsquo;re controlled differently in the Buzzer code libraries.</description>
+    </item>
+    
+    <item>
       <title>Week 3: Hand Tools and Fabrication</title>
       <link>https://remilarius.github.io/PS70/blog/week3/</link>
       <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
