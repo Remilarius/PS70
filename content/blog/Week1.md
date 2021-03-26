@@ -27,12 +27,25 @@ We had to set up Hugo and download Github desktop and other peripheral software 
 
 The website had various issues like the nav bar being stuck in the middle of the screen and the gallery being broken.
 
-Piecemeal fixes were made, I edited the header bar code so that it'd stay at the top of the page and Sean also helped me create a static image directory so that was able to put images on my website.
-
+Piecemeal fixes were made, I edited the header bar code so that it'd stay at the top of the page and Sean also helped me create a static image directory so that was able to put images on my website because 
 
 In the end, we ended up overwriting the old site because it was easier to get it re-setup correctly than to fix the broken one.
 
 Set up theme/website properly involved doing -rm copy commands, I don't remember quite clearly right now.
+
+### Skills I'ive acquired
+
+I know how to inspect elements on the website and how to find them in the code to modify them.
+
+Gained Sublime knowledge and navigation skills.
+
+Useful GitBash Commands
+
+hugo server -D
+sh push.sh
+hugo new blog/week#.md
+hugo new gallery/item-name.md
+hugo new about.md
 
 ### Things I'm still trying to figure how to do with Hugo
 
@@ -41,6 +54,10 @@ Set up theme/website properly involved doing -rm copy commands, I don't remember
 -Resize images so they don't take up the entire screen.
 -Maybe add a photo gallery
 
+#### Formatting the text beyond default
+
+- Make Code BLock text smaller
+- Being able to tab and center lines
 
 ### Notes
 

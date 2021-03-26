@@ -27,3 +27,26 @@ I built the circuit on the ES50 Analog Discovery Studio since it was sturdier in
 Sean recommended that I download the Buzzer library that makes it easier to write tunes in Arduino and I hadn't been able to get it to work because of bugs but I imagine it'd be figured out in a bit.
 
 ![Buzzer Code](buzzercodeexp1.png)
+
+
+{{< highlight html >}}
+#define TONE_LEDC_CHANNEL (0)
+
+void tone(uint8_t pin, unsigned int frequency)
+{
+    if (ledcRead(TONE_LEDC_CHANNEL))
+    {
+        Serial.printf("Tone channel %d is already in use\r\n", ledcRead(TONE_LEDC_CHANNEL));
+        return;
+    }
+
+    ledcAttachPin(pin, TONE_LEDC_CHANNEL);
+    ledcWriteTone(TONE_LEDC_CHANNEL, frequency);
+}
+
+void noTone(uint8_t pin)
+{
+    ledcDetachPin(pin);
+    ledcWrite(TONE_LEDC_CHANNEL, 0);
+}
+{{< /highlight >}}
