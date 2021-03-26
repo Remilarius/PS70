@@ -7,10 +7,10 @@
 
   <title>
     
-    Week 7: Electronic Output Devices | Joy Lin
+    Week 8: Radio Communication | Joy Lin
   </title>
 
-  <meta name="title" content="Week 7: Electronic Output Devices | Joy Lin">
+  <meta name="title" content="Week 8: Radio Communication | Joy Lin">
 
   <meta charset="utf-8">
   
@@ -26,7 +26,7 @@
 
   
 
-  <meta property="og:title" content="Week 7: Electronic Output Devices | Joy Lin">
+  <meta property="og:title" content="Week 8: Radio Communication | Joy Lin">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://remilarius.github.io/PS70/">
 
@@ -38,7 +38,7 @@
 
   <meta name="theme-color" content="#0097a7">
 
-  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week7/">
+  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week8/">
   
   
 
@@ -105,22 +105,44 @@
 
       <section class="container">
         <section class="content">
-          <h1> Week 7: Electronic Output Devices </h1>
+          <h1> Week 8: Radio Communication </h1>
 
             <div class="sub-header">
-              March 7, 2021 · 0 minutes read
+              March 21, 2021 · 2 minutes read
             </div>
 
           <article class="entry-content">
-            
+            <p><img src="Week8/FDTI.jpg" alt="FTDI programmer">
+The whole process of getting the ESP32 Cam working started out with a hiccup. I couldn&rsquo;t find board that connected the ESP32CAM to my computer for the longest time because it turned out that I had a different board form everyone else. It didn&rsquo;t make much of a difference because nothing worked after I hooked it up.
+<img src="Week8/Hookup.jpg" alt="Setup"></p>
+<p>I tried to upload the Blink code to the board as a test but I got an LED_BUILTIN error. Naming the LED would fix that error</p>
+<p>Putting either line into the code<br>
+&ldquo;#define LED_BUILTIN 33&rdquo; which is the name of the LED on the ESP32CAM board.<br>
+but the Arduino IDE instead spit out another error.<br>
+<img src="Week8/esp32camerror.jpg" alt="ESP32CAM ERROR"></p>
+<p>I got advice from Sam and Eric and Sean about how to get it working during lab but still could not upload code to it.</p>
+<p>I tried pushing the RST button quite aggressively as Arduino IDE was saying &ldquo;Connecting&hellip;&rdquo; but no luck.</p>
+<p>Notes:
+I need to push the RST button as code is being uploaded to get the board to connect.<br>
+GND and IO0 need to be connected on the CAM.<br>
+Procedure once the board starts working:<br>
+Upload code and disconnected GND and IO0 and press RST.<br>
+Wire a capacitor to the ESP32 CAM?</p>
+<p>Things to try:<br>
+Power the ESP32 with 5V?</p>
+<p>It looks like the FDTI was only sending 3.4V</p>
+<p><img src="Week8/3.4reading.jpg" alt="multimeterreading">
+<img src="Week8/Normalwire.jpg" alt="Normal Wire">
+<img src="Week8/5VtoGND.jpg" alt="5V Wiring"></p>
+<p>At least I could get the HUZZAH MAC address..</p>
+<p><img src="Week8/macaddress.jpg" alt="MACaddress"></p>
+
           </article>
 
           <div class="pagination">
             
-              <a href="https://remilarius.github.io/PS70/blog/week6/">&laquo; Week 6: Electronic Input Devices</a>
+              <a href="https://remilarius.github.io/PS70/blog/week7/">&laquo; Week 7: Electronic Output Devices</a>
             
-            
-              <a href="https://remilarius.github.io/PS70/blog/week8/">Week 8: Radio Communication &raquo;</a>
             
           </div>
         </section>

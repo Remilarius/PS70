@@ -6,7 +6,7 @@
     <description>Recent content on Joy Lin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 07 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>https://remilarius.github.io/PS70/gallery/hugo/</link>
@@ -51,6 +51,15 @@ Check it out.</description>
       
       <guid>https://remilarius.github.io/PS70/gallery/kdevo/</guid>
       <description>Author of Osprey Delight.</description>
+    </item>
+    
+    <item>
+      <title>Week 8: Radio Communication</title>
+      <link>https://remilarius.github.io/PS70/blog/week8/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week8/</guid>
+      <description>The whole process of getting the ESP32 Cam working started out with a hiccup. I couldn&amp;rsquo;t find board that connected the ESP32CAM to my computer for the longest time because it turned out that I had a different board form everyone else. It didn&amp;rsquo;t make much of a difference because nothing worked after I hooked it up. I tried to upload the Blink code to the board as a test but I got an LED_BUILTIN error.</description>
     </item>
     
     <item>
