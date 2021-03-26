@@ -1,7 +1,7 @@
 ---
 title: "Week 5: 3D Design and Printing"
 date: 2021-02-22
-draft: true
+draft: false
 ---
 
 ## Photogrammetry
