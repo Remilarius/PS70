@@ -1,7 +1,7 @@
 ---
 title: "Week 4: Microcontroller Programming"
 date: 2021-02-15
-draft: true
+draft: false
 ---
 
 ## Piezobuzzer Circuit
