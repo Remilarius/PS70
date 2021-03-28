@@ -108,7 +108,7 @@
           <h1> Week 4: Microcontroller Programming </h1>
 
             <div class="sub-header">
-              February 15, 2021 · 2 minutes read
+              February 15, 2021 · 3 minutes read
             </div>
 
           <article class="entry-content">
@@ -117,13 +117,16 @@
 <p>I used the HUZZAH Feather board instead of the Metro Express or Arduino MKRZero and that required downloading the associated libaries and packets.</p>
 <h3 id="tinkercad-mockup-wsingle-pin">TinkerCad Mockup w/Single pin</h3>
 <p>I built a quick circuit in TinkerCad to make sure the LED and Piezobuzzer would work as expected, the only modfication I would have to make to this would be to seperate the pin inputs for the LED and Piezo buzzer since they&rsquo;re controlled differently in the Buzzer code libraries.</p>
-<p><img src="piezobuzzercircuit.png" alt="TinkerCad Piezobuzzer"></p>
-<h3 id="actual-set-up">Actual Set-up</h3>
+<p><img src="Week4/piezobuild.jpg" alt="TinkerCAD"></p>
+<h3 id="build-1">Build #1</h3>
 <p>I built the circuit on the ES50 Analog Discovery Studio since it was sturdier instead of just a floating bread board.</p>
-<p><img src="piezosetup.jpg" alt="Piezobuild"></p>
-<h3 id="arduino-ide">Arduino IDE</h3>
-<p>Sean recommended that I download the Buzzer library that makes it easier to write tunes in Arduino and I hadn&rsquo;t been able to get it to work because of bugs but I imagine it&rsquo;d be figured out in a bit.</p>
-<p><img src="buzzercodeexp1.png" alt="Buzzer Code"></p>
+<p><img src="Week4/piezosetup.jpg" alt="Piezobuild"></p>
+<h3 id="build-2">Build #2</h3>
+<p>This one was more compact since I tried to fit it on half a bread board after the accidently-melt-part-of-the-Huzzah incident but this had wires crossing which probably isn&rsquo;t good.</p>
+<p><img src="Week4/piezobuild2.jpg" alt="Piezobuild 2"></p>
+<h3 id="set-up-in-arduino-ide">Set up in Arduino IDE</h3>
+<p>Sean recommended that I download the Buzzer library that makes it easier to write tunes in Arduino. There was a minor noTone/Tone not defined error but going on the github page of the library, there was code that code fix it.</p>
+<p>Add this code into the Buzzer.cpp of the library to fix the noTone/Tone undefined error.
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">#define TONE_LEDC_CHANNEL (0)
 
 void tone(uint8_t pin, unsigned int frequency)
@@ -142,7 +145,88 @@ void noTone(uint8_t pin)
 {
     ledcDetachPin(pin);
     ledcWrite(TONE_LEDC_CHANNEL, 0);
-}</code></pre></div>
+}</code></pre></div></p>
+<h3 id="code-for-fur-elise">Code for Fur Elise</h3>
+<p>Note: Pin 13 is for the piezobuzzer and pin 12 is for the LED.</p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">#include <span class="p">&lt;</span><span class="nt">Buzzer.h</span><span class="p">&gt;</span>
+
+Buzzer buzzer(13, 12);
+
+void setup() {
+  // put your setup code here, to run once:
+}
+
+void loop() {
+  int time = 500;
+
+  buzzer.begin(10);
+
+  buzzer.sound(NOTE_E7, time / 2);
+  buzzer.sound(NOTE_DS7, time / 2);
+  buzzer.sound(NOTE_E7, time / 2);
+  buzzer.sound(NOTE_DS7, time / 2);
+  buzzer.sound(NOTE_E7, time / 2);
+  
+  buzzer.sound(NOTE_B6, time / 2);
+  buzzer.sound(NOTE_D7, time / 2);
+  buzzer.sound(NOTE_C7, time / 2);
+  buzzer.sound(NOTE_A6, time / 2);
+  
+  buzzer.sound(NOTE_C6, time / 2);
+  buzzer.sound(NOTE_E6, time / 2);
+  buzzer.sound(NOTE_A6, time / 2);
+  buzzer.sound(NOTE_B6, time / 2);
+
+  buzzer.sound(NOTE_E6, time / 2);
+  buzzer.sound(NOTE_GS6, time / 2);
+  buzzer.sound(NOTE_B6, time / 2);
+  buzzer.sound(NOTE_C7, time);
+  
+  buzzer.sound(NOTE_E7, time / 2);
+  buzzer.sound(NOTE_DS7, time / 2);
+  buzzer.sound(NOTE_E7, time / 2);
+  buzzer.sound(NOTE_DS7, time / 2);
+  buzzer.sound(NOTE_E7, time / 2);
+
+  buzzer.sound(NOTE_B6, time / 2 );
+  buzzer.sound(NOTE_D7, time / 2);
+  buzzer.sound(NOTE_C7, time / 2);
+  buzzer.sound(NOTE_A6, time / 2 );
+
+  buzzer.sound(NOTE_C6, time / 2);
+  buzzer.sound(NOTE_E6, time / 2);
+  buzzer.sound(NOTE_A6, time / 2);
+  buzzer.sound(NOTE_B6, time / 2);
+
+  buzzer.sound(NOTE_E6, time / 2);
+  buzzer.sound(NOTE_C7, time / 2);
+  buzzer.sound(NOTE_B6, time / 2);
+  buzzer.sound(NOTE_A6, time);
+
+  buzzer.sound(NOTE_B6, time / 2);
+  buzzer.sound(NOTE_C7, time / 2);
+  buzzer.sound(NOTE_D7, time / 2);
+  buzzer.sound(NOTE_E7, time / 2);
+
+  buzzer.sound(NOTE_G6, time / 2);
+  buzzer.sound(NOTE_F7, time / 2);
+  buzzer.sound(NOTE_E7, time / 2);
+  buzzer.sound(NOTE_D7, time);
+
+  buzzer.sound(NOTE_F6, time / 2);
+  buzzer.sound(NOTE_E7, time / 2);
+  buzzer.sound(NOTE_D7, time / 2);
+  buzzer.sound(NOTE_C7, time / 2);
+
+  buzzer.sound(NOTE_E6, time / 2);
+  buzzer.sound(NOTE_D7, time / 2);
+  buzzer.sound(NOTE_C7, time / 2);
+  buzzer.sound(NOTE_E6, time / 2);</code></pre></div>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/gRDhW-fkg3Y" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 
           </article>
 

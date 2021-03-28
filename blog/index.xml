@@ -62,7 +62,7 @@ TinkerCad Mockup w/Single pin I built a quick circuit in TinkerCad to make sure 
       <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://remilarius.github.io/PS70/blog/week3/</guid>
-      <description></description>
+      <description>Fishing reel   Create a kinetic sculpture. Include circuitry to move your sculpture. Control the sculpture with a circuit on a breadboard that uses components in the kit (e.g., resistors, potentiometer). Use a multimeter to measure the voltages in your circuit. Use Ohm&amp;rsquo;s law to calculate current through the circuit. Use the Microcontroller Analog in (ADC) to measure the voltage of a potentiometer, or other voltage-divider-based sensor. (Optional) Use tools like TinkerCAD to simulate your circuit and/or tools like Fusion 360 to design and simulate your mechanism.</description>
     </item>
     
     <item>
