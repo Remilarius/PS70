@@ -7,10 +7,10 @@
 
   <title>
     
-    Week 3: Hand Tools and Fabrication | Joy Lin
+    Week 9: WiFi and Bluetooth (IoT) | Joy Lin
   </title>
 
-  <meta name="title" content="Week 3: Hand Tools and Fabrication | Joy Lin">
+  <meta name="title" content="Week 9: WiFi and Bluetooth (IoT) | Joy Lin">
 
   <meta charset="utf-8">
   
@@ -26,7 +26,7 @@
 
   
 
-  <meta property="og:title" content="Week 3: Hand Tools and Fabrication | Joy Lin">
+  <meta property="og:title" content="Week 9: WiFi and Bluetooth (IoT) | Joy Lin">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://remilarius.github.io/PS70/">
 
@@ -38,7 +38,7 @@
 
   <meta name="theme-color" content="#0097a7">
 
-  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week3/">
+  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week-9/">
   
   
 
@@ -105,35 +105,83 @@
 
       <section class="container">
         <section class="content">
-          <h1> Week 3: Hand Tools and Fabrication </h1>
+          <h1> Week 9: WiFi and Bluetooth (IoT) </h1>
 
             <div class="sub-header">
-              February 8, 2021 · One minute read
+              March 30, 2021 · 2 minutes read
             </div>
 
           <article class="entry-content">
-            <h2 id="fishing-reel">Fishing reel</h2>
-<p><img src="Week3/circuitmotorsim.png" alt="Circuit Motor Simulation"></p>
+            <h3 id="ble">BLE</h3>
+<p>I thought I&rsquo;d try the BLE subset of the assignment since my team had been thinking about ways to control a drone and BLE was one of the options we were considering.</p>
+<p>I followed the instructions on the class website and uploaded the BLE_write program from examples</p>
+<p>For the LED specifically, there was this code also on the class website.
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">/*
+    Based on Neil Kolban example for IDF: https://github.com/nkolban/esp32-snippets/blob/master/cpp_utils/tests/BLE%20Tests/SampleWrite.cpp
+    Ported to Arduino ESP32 by Evandro Copercini
+*/
+#include <span class="p">&lt;</span><span class="nt">BLEDevice.h</span><span class="p">&gt;</span>
+#include <span class="p">&lt;</span><span class="nt">BLEUtils.h</span><span class="p">&gt;</span>
+#include <span class="p">&lt;</span><span class="nt">BLEServer.h</span><span class="p">&gt;</span>
+// See the following for generating UUIDs:
+// https://www.uuidgenerator.net/
+#define SERVICE_UUID        &#34;4fafc201-1fb5-459e-8fcc-c5c9c331914b&#34;
+#define CHARACTERISTIC_UUID &#34;beb5483e-36e1-4688-b7f5-ea07361b26a8&#34;
+int LED_PIN = 5;
+char LED_STATUS;
+class MyCallbacks: public BLECharacteristicCallbacks {
+    void onWrite(BLECharacteristic *pCharacteristic) {
+      std::string value = pCharacteristic-&gt;getValue();
+      if (value.length() &gt; 0) { 
+        for (int i = 0; i <span class="p">&lt;</span> <span class="nt">value.length</span><span class="err">();</span> <span class="na">i</span><span class="err">++){</span>
+          <span class="na">LED_STATUS </span><span class="o">=</span> <span class="s">value[i];</span>
+        <span class="err">}</span>
+      <span class="err">}</span>
+    <span class="err">}</span>
+<span class="err">};</span>
+<span class="na">void</span> <span class="na">setup</span><span class="err">()</span> <span class="err">{</span>
+  <span class="na">Serial</span><span class="err">.</span><span class="na">begin</span><span class="err">(</span><span class="na">115200</span><span class="err">);</span>
+  <span class="na">BLEDevice::init</span><span class="err">(&#34;</span><span class="na">MyESP32</span><span class="err">&#34;);</span>
+  <span class="na">BLEServer</span> <span class="err">*</span><span class="na">pServer </span><span class="o">=</span> <span class="s">BLEDevice::createServer();</span>
+  <span class="na">BLEService</span> <span class="err">*</span><span class="na">pService </span><span class="o">=</span> <span class="s">pServer-</span><span class="p">&gt;</span>createService(SERVICE_UUID);
+  BLECharacteristic *pCharacteristic = pService-&gt;createCharacteristic(
+                                         CHARACTERISTIC_UUID,
+                                         BLECharacteristic::PROPERTY_READ |
+                                         BLECharacteristic::PROPERTY_WRITE
+                                       );
+  pCharacteristic-&gt;setCallbacks(new MyCallbacks());
+  pCharacteristic-&gt;setValue(&#34;Hello World&#34;);
+  pService-&gt;start();
+  BLEAdvertising *pAdvertising = pServer-&gt;getAdvertising();
+  pAdvertising-&gt;start();
+  pinMode(LED_PIN, OUTPUT);
+  digitalWrite(LED_PIN, LOW);
+}
+void loop() {
+  int val = (int)LED_STATUS;  // cast the char* as an int 
+  if (val == 49)              // ASCII code for the number 1
+    digitalWrite(LED_PIN, HIGH);
+  else 
+    digitalWrite(LED_PIN, LOW);
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/PT9LYtfLhFc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
-
-<p><img src="kinetic.mp4" alt="Kinetic Video"></p>
-<p>Create a kinetic sculpture. Include circuitry to move your sculpture.
-Control the sculpture with a circuit on a breadboard that uses components in the kit (e.g., resistors, potentiometer). Use a multimeter to measure the voltages in your circuit. Use Ohm&rsquo;s law to calculate current through the circuit.
-Use the Microcontroller Analog in (ADC) to measure the voltage of a potentiometer, or other voltage-divider-based sensor.
-(Optional) Use tools like TinkerCAD to simulate your circuit and/or tools like Fusion 360 to design and simulate your mechanism.
-Document your work and learning. Include at least one video/gif of your sculpture.</p>
+  delay(2000);
+}</code></pre></div></p>
+<h3 id="ble-scanner-app">BLE Scanner App</h3>
+<p>I downloaded the basic BLE scanner from the app store and found my device on the scanner (there were a lot of devices that showed on the device surprisingly).</p>
+<p><img src="Week9/devicepage.PNG" alt="Devicepage">
+<img src="Week9/write.jpg" alt="write">
+<img src="Week9/write1.jpg" alt="Write 1">
+<img src="Week9/LEDON.jpg" alt="LEDon"></p>
+<p>I notice a 1-2 second lag between writing 1 or 0 in the app and the LED turning on and off. After getting rid of the delay, the response was almost instantaneous.</p>
+<p>I was originally concerned about the lag in piloting something like a drone, but now that I know it&rsquo;s possible for the board to be pretty responsive, the problem is getting a better UI than having to write in numbers or HEX.</p>
+<p>One solution to being limited by having to write text or HEX is to build command packets but I don&rsquo;t exactly know to what to map over as of yet.</p>
 
           </article>
 
           <div class="pagination">
             
-              <a href="https://remilarius.github.io/PS70/blog/week2/">&laquo; Week 2: 2D Design &amp; Cutting</a>
+              <a href="https://remilarius.github.io/PS70/blog/week11/">&laquo; Week 12: Casting and Molding</a>
             
-            
-              <a href="https://remilarius.github.io/PS70/blog/week4/">Week 4: Microcontroller Programming &raquo;</a>
             
           </div>
         </section>

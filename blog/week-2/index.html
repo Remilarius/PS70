@@ -7,10 +7,10 @@
 
   <title>
     
-    Week 8: Radio Communication | Joy Lin
+    Week 2: 2D Design &amp; Cutting | Joy Lin
   </title>
 
-  <meta name="title" content="Week 8: Radio Communication | Joy Lin">
+  <meta name="title" content="Week 2: 2D Design &amp; Cutting | Joy Lin">
 
   <meta charset="utf-8">
   
@@ -20,25 +20,25 @@
   <meta name="referrer" content="no-referrer-when-downgrade">
   <base href="https://remilarius.github.io/PS70/">
 
-  <meta name="description" content="osprey-delight example site">
+  <meta name="description" content="A brief description of Hugo Shortcodes">
 
   <meta name="author" content="kdevo">
 
   
 
-  <meta property="og:title" content="Week 8: Radio Communication | Joy Lin">
+  <meta property="og:title" content="Week 2: 2D Design &amp; Cutting | Joy Lin">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://remilarius.github.io/PS70/">
 
   <meta property="og:image" content="https://remilarius.github.io/PS70//images/osprey-delight.png">
 
-  <meta property="og:description" content="osprey-delight example site">
+  <meta name="og:description" content="A brief description of Hugo Shortcodes">
 
   <link rel="icon" type="image/png" href="anchoricon.png">
 
   <meta name="theme-color" content="#0097a7">
 
-  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week8/">
+  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week-2/">
   
   
 
@@ -105,44 +105,45 @@
 
       <section class="container">
         <section class="content">
-          <h1> Week 8: Radio Communication </h1>
+          <h1> Week 2: 2D Design &amp; Cutting </h1>
 
             <div class="sub-header">
-              March 21, 2021 · 2 minutes read
+              February 1, 2021 · One minute read
             </div>
 
           <article class="entry-content">
-            <p><img src="Week8/FDTI.jpg" alt="FTDI programmer">
-The whole process of getting the ESP32 Cam working started out with a hiccup. I couldn&rsquo;t find board that connected the ESP32CAM to my computer for the longest time because it turned out that I had a different board form everyone else. It didn&rsquo;t make much of a difference because nothing worked after I hooked it up.
-<img src="Week8/Hookup.jpg" alt="Setup"></p>
-<p>I tried to upload the Blink code to the board as a test but I got an LED_BUILTIN error. Naming the LED would fix that error</p>
-<p>Putting either line into the code<br>
-&ldquo;#define LED_BUILTIN 33&rdquo; which is the name of the LED on the ESP32CAM board.<br>
-but the Arduino IDE instead spit out another error.<br>
-<img src="Week8/esp32camerror.jpg" alt="ESP32CAM ERROR"></p>
-<p>I got advice from Sam and Eric and Sean about how to get it working during lab but still could not upload code to it.</p>
-<p>I tried pushing the RST button quite aggressively as Arduino IDE was saying &ldquo;Connecting&hellip;&rdquo; but no luck.</p>
-<p>Notes:
-I need to push the RST button as code is being uploaded to get the board to connect.<br>
-GND and IO0 need to be connected on the CAM.<br>
-Procedure once the board starts working:<br>
-Upload code and disconnected GND and IO0 and press RST.<br>
-Wire a capacitor to the ESP32 CAM?</p>
-<p>Things to try:<br>
-Power the ESP32 with 5V?</p>
-<p>It looks like the FDTI was only sending 3.4V</p>
-<p><img src="Week8/3.4reading.jpg" alt="multimeterreading">
-<img src="Week8/Normalwire.jpg" alt="Normal Wire">
-<img src="Week8/5VtoGND.jpg" alt="5V Wiring"></p>
-<p>At least I could get the HUZZAH MAC address..</p>
-<p><img src="Week8/macaddress.jpg" alt="MACaddress"></p>
+            <h2 id="part-1-circuits">Part 1: Circuits</h2>
+<p>I constructed a simple circuit in TinkerCad to see what it&rsquo;s like before building it in real life with the 	parts in the kit.</p>
+<p><img src="Week2/circuits.jpg" alt="Circuits"></p>
+<h2 id="part-2-press-fit-kit">Part 2: Press-Fit Kit</h2>
+<p>Since I wasn&rsquo;t constrained by having to make a core mechanism with 2D design this time around, I decided to make a sliced model of a boat with a center mast and two back masts.</p>
+<h3 id="trimaran">Trimaran</h3>
+<p><img src="Week2/trimaran/trimaranassem.png" alt="Trimaran"></p>
+<p>I did not concern myself with tolerancing and did all the parameters in inches. I was given the thickness of the material, cardboard, to be 4.3mm (0.169in). Most necessary corners were filleted to prevent stress buildup.</p>
+<h3 id="parts">Parts</h3>
+<ul>
+<li>6x Body Planks</li>
+<li>4x Ship Body</li>
+<li>2x Ship Hull</li>
+<li>2x Center Mast</li>
+<li>2x Back Mast</li>
+<li>3x Center Mast Clips</li>
+<li>2x Side Mast Clips</li>
+</ul>
+<p>I worked with Haeyun and Kathryn and they added decoratives to the ship like people, barrels, and cannons.</p>
+<p>Haeyun was able to pick up the lasercut pieces and assemble the boat without too much trouble. (02/08/2021)</p>
+<p><a href="files/Trimaran.zip">Click to download zipped file</a></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
           </article>
 
           <div class="pagination">
             
-              <a href="https://remilarius.github.io/PS70/blog/week7/">&laquo; Week 7: Electronic Output Devices</a>
+              <a href="https://remilarius.github.io/PS70/blog/week-1/">&laquo; Week 1: Intro and Documentation</a>
             
+            
+              <a href="https://remilarius.github.io/PS70/blog/week-3/">Week 3: Hand Tools and Fabrication &raquo;</a>
             
           </div>
         </section>

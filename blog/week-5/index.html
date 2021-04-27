@@ -7,10 +7,10 @@
 
   <title>
     
-    Week 1: Intro and Documentation | Joy Lin
+    Week 5: 3D Design and Printing | Joy Lin
   </title>
 
-  <meta name="title" content="Week 1: Intro and Documentation | Joy Lin">
+  <meta name="title" content="Week 5: 3D Design and Printing | Joy Lin">
 
   <meta charset="utf-8">
   
@@ -20,25 +20,25 @@
   <meta name="referrer" content="no-referrer-when-downgrade">
   <base href="https://remilarius.github.io/PS70/">
 
-  <meta name="description" content="Guide to emoji usage in Hugo">
+  <meta name="description" content="osprey-delight example site">
 
   <meta name="author" content="kdevo">
 
   
 
-  <meta property="og:title" content="Week 1: Intro and Documentation | Joy Lin">
+  <meta property="og:title" content="Week 5: 3D Design and Printing | Joy Lin">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://remilarius.github.io/PS70/">
 
   <meta property="og:image" content="https://remilarius.github.io/PS70//images/osprey-delight.png">
 
-  <meta name="og:description" content="Guide to emoji usage in Hugo">
+  <meta property="og:description" content="osprey-delight example site">
 
   <link rel="icon" type="image/png" href="anchoricon.png">
 
   <meta name="theme-color" content="#0097a7">
 
-  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week1/">
+  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/week-5/">
   
   
 
@@ -105,55 +105,44 @@
 
       <section class="container">
         <section class="content">
-          <h1> Week 1: Intro and Documentation </h1>
+          <h1> Week 5: 3D Design and Printing </h1>
 
             <div class="sub-header">
-              January 25, 2021 · 2 minutes read
+              February 22, 2021 · 2 minutes read
             </div>
 
           <article class="entry-content">
-            <p>Documentation and website setup.</p>
-<h2 id="process">Process</h2>
-<p>I was lured into using a static site generator instead of the usual HTML and CSS because it woulld require less coding.</p>
-<p>We were given a choice between Hugo or Jekyll and Andrew and I chose the same theme in Hugo, Osprey Delight, to share the burden of learning to manipulate and Sean helped us set it up.</p>
-<p>We didn&rsquo;t read the READme and that&rsquo;s where the problems started.</p>
-<h3 id="problems-that-were-resolved">Problems that were resolved</h3>
-<p>Our first download and setup was long and tedious.</p>
-<p>We had to set up Hugo and download Github desktop and other peripheral software to get everything working smoothly.</p>
-<p>The website had various issues like the nav bar being stuck in the middle of the screen and the gallery being broken.</p>
-<p>Piecemeal fixes were made, I edited the header bar code so that it&rsquo;d stay at the top of the page and Sean also helped me create a static image directory so that was able to put images on my website because</p>
-<p>In the end, we ended up overwriting the old site because it was easier to get it re-setup correctly than to fix the broken one.</p>
-<p>Set up theme/website properly involved doing -rm copy commands, I don&rsquo;t remember quite clearly right now.</p>
-<h3 id="skills-iive-acquired">Skills I&rsquo;ive acquired</h3>
-<p>I know how to inspect elements on the website and how to find them in the code to modify them.</p>
-<p>Gained Sublime knowledge and navigation skills.</p>
-<p>Useful GitBash Commands</p>
-<p>hugo server -D
-sh push.sh
-hugo new blog/week#.md
-hugo new gallery/item-name.md
-hugo new about.md</p>
-<h3 id="things-im-still-trying-to-figure-how-to-do-with-hugo">Things I&rsquo;m still trying to figure how to do with Hugo</h3>
-<h4 id="images">Images</h4>
-<p>-Resize images so they don&rsquo;t take up the entire screen.
--Maybe add a photo gallery</p>
-<h4 id="formatting-the-text-beyond-default">Formatting the text beyond default</h4>
-<ul>
-<li>Make Code BLock text smaller</li>
-<li>Being able to tab and center lines</li>
-</ul>
-<h3 id="notes">Notes</h3>
-<p><a href="https://www.youtube.com/watch?v=xN9hTo3iR6A">Chuck Hoberman, Transforming Toys</a></p>
-<p><a href="https://alexlakatos.com/web/2020/07/17/hugo-image-processing/">Resize image link</a></p>
+            <h2 id="photogrammetry">Photogrammetry</h2>
+<p>I thought it might be good to have a 3D model of the Tile Sticker so that I could have a complete assembly later down the line. I used the Qlone app, probably more hopeful than I should been about the result, and struggled to scan the Tile Sticker for about 15 minutes. The final result:</p>
+<p><img src="Week5/qlonemodel.jpg" alt="QloneTile"></p>
+<p>It came out really deformed on the top and sides, unusable.</p>
+<h2 id="3d-print-bike-tile-holder">3D Print Bike Tile Holder</h2>
+<p>I didn&rsquo;t what I had to secure the two halves with so I dug through the shed toolbox for screws or fasteners. It happens that I had these four nut and bolts so I had to measure dimensions to customize the two halves of the holder to perfectly fit.</p>
+<p><img src="Week5/tileholderscrews.jpg" alt="TileHolderScrews"></p>
+<p>I tried to cut down the profile of the holder to prevent the edges from sticking out and to save material but did not think to remove a pair of screws to cut down the height by almost half. Print time for both the front and back came close to 20 hours with 15% infill.</p>
+<p><img src="Week5/tileholderfront.jpg" alt="Tileholder Front">
+<img src="Week5/tileholderback.jpg" alt="Tileholder Back">
+<img src="Week5/tileholder.jpg" alt="TileHolder">
+<img src="Week5/v1printtime.jpg" alt="Prusaslicer"></p>
+<h3 id="cutting-print-time">Cutting print time</h3>
+<p>I figured the 4 hole version of the tile holder did cost too much unnecessary material so I decided to change the parameters to about half the height and getting rid of a row of holes.</p>
+<p><img src="Week5/tilev2.jpg" alt="TileholderV2">
+<img src="Week5/v2printtime.jpg" alt="Prusaslicer2"></p>
+<p><a href="files/Week5/tileholderfront.STL">Click to download Tile Holder Front</a><br>
+<a href="files/Week5/tileholderback.STL">Click to download Tile Holder Back</a><br>
+<a href="files/Week5/tileholder.SLDASM">Click to download Tile Holder Assem</a><br>
+<a href="files/Week5/tileholderfrontv2.STL">Click to download Tile Holder Front Ver 2</a><br>
+<a href="files/Week5/tileholderbackv2.STL">Click to download Tile Holder Back Ver 2</a><br>
+<a href="files/Week5/TileHolderV2.SLDASM">Click to download Tile Holder Assem Ver 2</a></p>
 
           </article>
 
           <div class="pagination">
             
-              <a href="https://remilarius.github.io/PS70/blog/markdown-syntax/">&laquo; Markdown Syntax Guide</a>
+              <a href="https://remilarius.github.io/PS70/blog/week-4/">&laquo; Week 4: Microcontroller Programming</a>
             
             
-              <a href="https://remilarius.github.io/PS70/blog/week2/">Week 2: 2D Design &amp; Cutting &raquo;</a>
+              <a href="https://remilarius.github.io/PS70/blog/week-6/">Week 6: Electronic Input Devices &raquo;</a>
             
           </div>
         </section>

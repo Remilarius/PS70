@@ -6,40 +6,63 @@
     <description>Recent content in Posts on Joy Lin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Mar 2021 13:55:24 -0500</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Week 9: WiFi and Bluetooth (IoT)</title>
+      <link>https://remilarius.github.io/PS70/blog/week-9/</link>
+      <pubDate>Tue, 30 Mar 2021 13:55:24 -0500</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week-9/</guid>
+      <description>BLE I thought I&amp;rsquo;d try the BLE subset of the assignment since my team had been thinking about ways to control a drone and BLE was one of the options we were considering.
+I followed the instructions on the class website and uploaded the BLE_write program from examples
+For the LED specifically, there was this code also on the class website. /* Based on Neil Kolban example for IDF: https://github.com/nkolban/esp32-snippets/blob/master/cpp_utils/tests/BLE%20Tests/SampleWrite.cpp Ported to Arduino ESP32 by Evandro Copercini */ #include &amp;lt;BLEDevice.</description>
+    </item>
+    
+    <item>
+      <title>Week 12: Casting and Molding</title>
+      <link>https://remilarius.github.io/PS70/blog/week11/</link>
+      <pubDate>Tue, 30 Mar 2021 13:55:20 -0500</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week11/</guid>
+      <description>I couldn&amp;rsquo;t find many small interesting objects around the house so I settled for tossing my d20 into the silicone.
+It didn&amp;rsquo;t require too much liquid since it was so small and I was on the cautious side. I also found the narrowest cup in the house to do this with.
+A little afraid to cut it out for now, I think it needs to harden a little more.
+I want to make ice dodecahderons with the mold, I don&amp;rsquo;t think it&amp;rsquo;d survive a session of DND but it might be fun if the numbers show up on the die.</description>
+    </item>
+    
     <item>
       <title>Week 8: Radio Communication</title>
-      <link>https://remilarius.github.io/PS70/blog/week8/</link>
+      <link>https://remilarius.github.io/PS70/blog/week-8/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://remilarius.github.io/PS70/blog/week8/</guid>
+      <guid>https://remilarius.github.io/PS70/blog/week-8/</guid>
       <description>The whole process of getting the ESP32 Cam working started out with a hiccup. I couldn&amp;rsquo;t find board that connected the ESP32CAM to my computer for the longest time because it turned out that I had a different board form everyone else. It didn&amp;rsquo;t make much of a difference because nothing worked after I hooked it up. I tried to upload the Blink code to the board as a test but I got an LED_BUILTIN error.</description>
     </item>
     
     <item>
       <title>Week 7: Electronic Output Devices</title>
-      <link>https://remilarius.github.io/PS70/blog/week7/</link>
+      <link>https://remilarius.github.io/PS70/blog/week-7/</link>
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://remilarius.github.io/PS70/blog/week7/</guid>
+      <guid>https://remilarius.github.io/PS70/blog/week-7/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Week 6: Electronic Input Devices</title>
-      <link>https://remilarius.github.io/PS70/blog/week6/</link>
+      <link>https://remilarius.github.io/PS70/blog/week-6/</link>
       <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://remilarius.github.io/PS70/blog/week6/</guid>
+      <guid>https://remilarius.github.io/PS70/blog/week-6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Week 5: 3D Design and Printing</title>
-      <link>https://remilarius.github.io/PS70/blog/week5/</link>
+      <link>https://remilarius.github.io/PS70/blog/week-5/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://remilarius.github.io/PS70/blog/week5/</guid>
+      <guid>https://remilarius.github.io/PS70/blog/week-5/</guid>
       <description>Photogrammetry I thought it might be good to have a 3D model of the Tile Sticker so that I could have a complete assembly later down the line. I used the Qlone app, probably more hopeful than I should been about the result, and struggled to scan the Tile Sticker for about 15 minutes. The final result:
 It came out really deformed on the top and sides, unusable.
 3D Print Bike Tile Holder I didn&amp;rsquo;t what I had to secure the two halves with so I dug through the shed toolbox for screws or fasteners.</description>
@@ -47,10 +70,10 @@ It came out really deformed on the top and sides, unusable.
     
     <item>
       <title>Week 4: Microcontroller Programming</title>
-      <link>https://remilarius.github.io/PS70/blog/week4/</link>
+      <link>https://remilarius.github.io/PS70/blog/week-4/</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://remilarius.github.io/PS70/blog/week4/</guid>
+      <guid>https://remilarius.github.io/PS70/blog/week-4/</guid>
       <description>Piezobuzzer Circuit I wanted to play some music with a piezo buzzer since I was given the basics in ES50, so I decided to map over knowledge from the class and use the materials from PS70 to make something more extensive.
 I used the HUZZAH Feather board instead of the Metro Express or Arduino MKRZero and that required downloading the associated libaries and packets.
 TinkerCad Mockup w/Single pin I built a quick circuit in TinkerCad to make sure the LED and Piezobuzzer would work as expected, the only modfication I would have to make to this would be to seperate the pin inputs for the LED and Piezo buzzer since they&amp;rsquo;re controlled differently in the Buzzer code libraries.</description>
@@ -58,19 +81,19 @@ TinkerCad Mockup w/Single pin I built a quick circuit in TinkerCad to make sure 
     
     <item>
       <title>Week 3: Hand Tools and Fabrication</title>
-      <link>https://remilarius.github.io/PS70/blog/week3/</link>
+      <link>https://remilarius.github.io/PS70/blog/week-3/</link>
       <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://remilarius.github.io/PS70/blog/week3/</guid>
+      <guid>https://remilarius.github.io/PS70/blog/week-3/</guid>
       <description>Fishing reel   Create a kinetic sculpture. Include circuitry to move your sculpture. Control the sculpture with a circuit on a breadboard that uses components in the kit (e.g., resistors, potentiometer). Use a multimeter to measure the voltages in your circuit. Use Ohm&amp;rsquo;s law to calculate current through the circuit. Use the Microcontroller Analog in (ADC) to measure the voltage of a potentiometer, or other voltage-divider-based sensor. (Optional) Use tools like TinkerCAD to simulate your circuit and/or tools like Fusion 360 to design and simulate your mechanism.</description>
     </item>
     
     <item>
       <title>Week 2: 2D Design &amp; Cutting</title>
-      <link>https://remilarius.github.io/PS70/blog/week2/</link>
+      <link>https://remilarius.github.io/PS70/blog/week-2/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://remilarius.github.io/PS70/blog/week2/</guid>
+      <guid>https://remilarius.github.io/PS70/blog/week-2/</guid>
       <description>Part 1: Circuits I constructed a simple circuit in TinkerCad to see what it&amp;rsquo;s like before building it in real life with the parts in the kit.
 Part 2: Press-Fit Kit Since I wasn&amp;rsquo;t constrained by having to make a core mechanism with 2D design this time around, I decided to make a sliced model of a boat with a center mast and two back masts.
 Trimaran I did not concern myself with tolerancing and did all the parameters in inches.</description>
@@ -78,10 +101,10 @@ Trimaran I did not concern myself with tolerancing and did all the parameters in
     
     <item>
       <title>Week 1: Intro and Documentation</title>
-      <link>https://remilarius.github.io/PS70/blog/week1/</link>
+      <link>https://remilarius.github.io/PS70/blog/week-1/</link>
       <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://remilarius.github.io/PS70/blog/week1/</guid>
+      <guid>https://remilarius.github.io/PS70/blog/week-1/</guid>
       <description>Documentation and website setup.
 Process I was lured into using a static site generator instead of the usual HTML and CSS because it woulld require less coding.
 We were given a choice between Hugo or Jekyll and Andrew and I chose the same theme in Hugo, Osprey Delight, to share the burden of learning to manipulate and Sean helped us set it up.
