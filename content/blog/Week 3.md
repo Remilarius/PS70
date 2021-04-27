@@ -11,7 +11,8 @@ draft: false
 
 {{< youtube PT9LYtfLhFc >}}
 
-![Kinetic Video](kinetic.mp4)
+
+![Analog Read Voltage](analogreadvoltage.)
 
 Create a kinetic sculpture. Include circuitry to move your sculpture.
 Control the sculpture with a circuit on a breadboard that uses components in the kit (e.g., resistors, potentiometer). Use a multimeter to measure the voltages in your circuit. Use Ohm's law to calculate current through the circuit.
