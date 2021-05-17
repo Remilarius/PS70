@@ -1,6 +1,6 @@
 ---
 title: "Week 9: WiFi and Bluetooth (IoT)"
-date: 2021-03-30T13:55:24-05:00
+date: 2021-03-30
 draft: false
 ---
 ### BLE
