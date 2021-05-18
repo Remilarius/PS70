@@ -14,4 +14,13 @@ A little afraid to cut it out for now, I think it needs to harden a little more.
 
 I want to make ice dodecahderons with the mold, I don't think it'd survive a session of DND but it might be fun if the numbers show up on the die.
 
-Keeping my eye out for something else to cast.
+### Update:
+
+Second mold: I used a silver dollar. I wanted to see if I could do it as a single part mold and was somewhat successful. Haven't tested it out with chocolate yet.
+
+![Silver Dollar](silverdollar.jpg)
+![Dollar Mold](dollarmold.jpg)
+
+I did freeze water inside the dice mold but the ice expanded outwards from the top and the numbers were hard to distinguish. Melted fairly quickly. Chocolate or other materials that are solid at a higher temperature would make for a better outcome.
+
+Both molds cam out suprisingly detailed though.
