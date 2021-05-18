@@ -12,8 +12,9 @@ I decided to make an automatic fishing reel, scaled down.
 This is the circuit built in TinkerCAD
 ![Circuit Motor Simulation](Week3/circuitmotorsim.png)
 
-
 {{< youtube PT9LYtfLhFc >}}
 
 ### Layout
 ![Analog Read Voltage](/images/Week3/layout.jpg)
+
+I used the potentiometer to control the speed of the reel, ended up being quite a challenge since I only had two hands.

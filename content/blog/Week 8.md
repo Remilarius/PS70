@@ -39,3 +39,5 @@ It looks like the FDTI was only sending 3.4V
 At least I could get the HUZZAH MAC address..
 
 ![MACaddress](Week8/macaddress.jpg)
+
+The board worked after 5V and GND were connected with a little cap thing. I had no luck setting the the ESP32-CAM proper though... will keep trying.
