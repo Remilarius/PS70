@@ -56,11 +56,22 @@ hugo new about.md
 
 #### Formatting the text beyond default
 
-- Make Code BLock text smaller
+- Make Code Block text smaller
 - Being able to tab and center lines
 
 ### Notes
 
-[Chuck Hoberman, Transforming Toys](https://www.youtube.com/watch?v=xN9hTo3iR6A)
+I'm to inject custom hmtl or write Hugo shortcode by adding "markup.goldmark.renderer" to the config.toml
 
 [Resize image link](https://alexlakatos.com/web/2020/07/17/hugo-image-processing/)
+
+### General Process
+
+I went back and set up another website for the heck of it and it seems the general process is:
+
+1. Install Hugo
+2. Create new empty site using command "hugo new site quickstart"
+3. Set up the theme with "git init" and "git submodule"
+4. Link with Github and set up Github pages
+
+It's likely problems will be encountered but debugging and troubleshooting seems to be specific to each website. Best of luck.
