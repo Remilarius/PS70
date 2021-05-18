@@ -60,7 +60,7 @@ Check it out.</description>
       
       <guid>https://remilarius.github.io/PS70/blog/final-project/</guid>
       <description>Demo Video   Motivation I really wanted something that moved around my house because I&amp;rsquo;ve been stuck inside for way to long. I wanted something autonomous to keep me company and since my mom wasn&amp;rsquo;t on board with having a dog, I decided to build one.
-Fabrication Since parts that needed to be lasercut or 3D printed needed to be designed and made first, decisions regarding how to spatially fit everything had to be made early on and all other parts had to conform.</description>
+Project Vision I originally wanted to stay very true to the animation in game, meaning articulated joints and head/mouth, but I quickly had to scale down due to the limitations of my knowledge, equipment, and time.</description>
     </item>
     
     <item>
@@ -90,7 +90,9 @@ I want to make ice dodecahderons with the mold, I don&amp;rsquo;t think it&amp;r
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://remilarius.github.io/PS70/blog/week10/</guid>
-      <description>I spent most of this week on getting the 3D materials in.</description>
+      <description>I spent most of this week on getting the 3D materials and lasercut parts in.
+I had built my dimensions off the leg of the wolf, the immutable element being the N20 motor with the wheel mounted on. Since I wanted them to be contained, this made the minimum width of the leg 2 inches.
+I tried to make the build somewhat modular, with a repeating set of fasteners. This kinda of exploded the build a little bit since fasteners were needed at every joint and intersection.</description>
     </item>
     
     <item>
