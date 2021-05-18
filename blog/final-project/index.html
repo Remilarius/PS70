@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  
+
+  
+
+  <title>
+    
+    Final Project | Joy Lin
+  </title>
+
+  <meta name="title" content="Final Project | Joy Lin">
+
+  <meta charset="utf-8">
+  
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <base href="https://remilarius.github.io/PS70/">
+
+  <meta name="description" content="osprey-delight example site">
+
+  <meta name="author" content="kdevo">
+
+  
+
+  <meta property="og:title" content="Final Project | Joy Lin">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://remilarius.github.io/PS70/">
+
+  <meta property="og:image" content="https://remilarius.github.io/PS70//images/osprey-delight.png">
+
+  <meta property="og:description" content="osprey-delight example site">
+
+  <link rel="icon" type="image/png" href="anchoricon.png">
+
+  <meta name="theme-color" content="#0097a7">
+
+  <link rel="canonical" href="https://remilarius.github.io/PS70/blog/final-project/">
+  
+  
+
+  <link rel="stylesheet" href="https://remilarius.github.io/PS70/style.8bf9e65afd7249b538482c017b52bc4aab6c35fb771c80a22694935428991e48.css" type="text/css">
+
+  <script type="application/ld+json">
+  {"@context":"http://www.schema.org","@type":"Person","@id":"https://remilarius.github.io/PS70/","name":"kdevo","url":"https://remilarius.github.io/PS70/","description":"osprey-delight example site","sameAs":["","https://github.com/Remilarius","","",""]}
+  </script>
+
+  <style>.lazyload{opacity:.0001;}.logo .lazyload{min-width:10em;}</style>
+    <script src="https://remilarius.github.io/PS70/js/vendor/lazysizes.min.js" async></script>
+</head>
+
+  <body>
+    
+
+
+
+<nav class="row middle-xs center-xs">
+  <div class="col-xs-6 col-sm-1 logo">
+    <a href="/PS70/#"><img data-src="anchoricon.png" class="lazyload" lazyload="on" alt="Joy Lin"></a>
+  </div>
+    
+      <div class="col-xs-3 col-sm-2 nav-item">
+        <h3><a href="/PS70/#about">About</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2 nav-item">
+        <h3><a href="/PS70/#work">Work</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2 nav-item">
+        <h3><a href="/PS70/#blog">Blog</a></h3>
+      </div>
+    
+      <div class="col-xs-3 col-sm-2 nav-item">
+        <h3><a href="/PS70/#contact">Contact</a></h3>
+      </div>
+    
+  <div class="col-xs-6 col-sm-1 nav-toggle">
+      <a href="" class="nav-icon" onclick="return false">
+        <i id="open" class="icon icon-2x icon-menu"></i>
+      </a>
+  </div>
+</nav>
+
+<section class="nav-full row middle-xs center-xs">
+  <div class="col-xs-12">
+    <div class="row middle-xs center-xs">
+      
+        <div class="col-xs-12"><h1><a href="/PS70/#about">About</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="/PS70/#work">Work</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="/PS70/#blog">Blog</a></h1></div>
+      
+        <div class="col-xs-12"><h1><a href="/PS70/#contact">Contact</a></h1></div>
+      
+    </div>
+  </div>
+</section>
+
+    <main>
+
+      <section class="container">
+        <section class="content">
+          <h1> Final Project </h1>
+
+            <div class="sub-header">
+              May 13, 2021 · 4 minutes read
+            </div>
+
+          <article class="entry-content">
+            <h2 id="demo-video">Demo Video</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/pPO-RpMidgE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="motivation">Motivation</h2>
+<p>I really wanted something that moved around my house because I&rsquo;ve been stuck inside for way to long. I wanted something autonomous to keep me company and since my mom wasn&rsquo;t on board with having a dog, I decided to build one.</p>
+<h2 id="fabrication">Fabrication</h2>
+<p>Since parts that needed to be lasercut or 3D printed needed to be designed and made first, decisions regarding how to spatially fit everything had to be made early on and all other parts had to conform.</p>
+<p>Since the wolf would be a four legged thing, the legs would be the most important bit since they were going be what drives the machine and allow it to be mobile.</p>
+<p>I spent quite a bit of time puzzled about how to put everything together, since motors/wheels/axles were decisions that had to be made in tandem, but after rifling our kit, it seems the N20 had custom parts that fit onto lego wheels.</p>
+<p>I eneded up designing around that and how the legs of the wolf decided everything else.</p>
+<p><img src="minecraftwolf.jpg" alt="Circuit Motor Simulation">
+<img src="legshot.jpg" alt="Circuit Motor Simulation">
+<img src="wolfcad.jpg" alt="Circuit Motor Simulation"></p>
+<h3 id="mosfet-ver">MOSFET ver.</h3>
+<p>I had previously build a quadcopter with a four motor setup with MOSFETs and flyback diodes and I thought it&rsquo;d be simple enough to map over that technique since I also wanted to control 4 motors here. Unfortunately, I also knew at some point that&rsquo;d I would want to back out of tight corners and such so this version was sadly up for the job.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/xtvrQd0GNAc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p><img src="finalcircuit.jpg" alt="Circuit Motor Simulation"></p>
+<p>I ended up using the two L9110 H Bridge Power Driver to control the 4 motors. I&rsquo;m also using a bluetooth module, the SH-HC-08, and an app, ElegooBLE tool, to communicate with the MetroExpress.</p>
+<h3 id="elegooble-app-controls">ElegooBLE App Controls</h3>
+<p><img src="controlboard.PNG" alt="Circuit Motor Simulation"></p>
+<h2 id="code-on-the-metroexpress">Code on the MetroExpress</h2>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">int EN1 = 3;                
+int EN2 = 4;
+
+int EN3 = 5;
+int EN4 = 6;
+
+char Incoming_value = 0;
+
+void setup()
+
+{
+    pinMode(EN1, OUTPUT);   // where the motor is connected to
+    pinMode(EN2, OUTPUT);   // where the motor is connected to
+    pinMode(EN3, OUTPUT);   // where the motor is connected to
+    pinMode(EN4, OUTPUT);   // where the motor is connected to
+    Serial.begin(9600);
+    Serial1.begin(9600);
+}
+
+void loop()
+
+{
+  if(Serial1.available() &gt; 0)
+  {
+    Incoming_value = Serial1.read();   
+    if(Incoming_value == &#39;A&#39;){
+       Serial.println(Incoming_value);
+       analogWrite(EN2, 0); 
+       analogWrite(EN1, 255); 
+    }
+      else if(Incoming_value == &#39;B&#39;) {      //Checks whether value of Incoming_value is equal to 
+        Serial.println(Incoming_value);
+        analogWrite(EN1, 0);
+        analogWrite(EN2, 255);               
+      }        
+      else if(Incoming_value == &#39;C&#39;) {      //Checks whether value of Incoming_value is equal to 
+        Serial.println(Incoming_value);
+        analogWrite(EN3, 0);         
+        analogWrite(EN4, 255);     
+      }
+      else if(Incoming_value == &#39;D&#39;) {      //Checks whether value of Incoming_value is equal to 
+        Serial.println(Incoming_value);
+        analogWrite(EN4, 0); 
+        analogWrite(EN3, 255);                 
+      }
+      else if(Incoming_value == &#39;K&#39;) {      //Checks whether value of Incoming_value is equal to 
+        Serial.println(Incoming_value);
+        analogWrite(EN2, 0); 
+        analogWrite(EN1, 255);
+        analogWrite(EN3, 0); 
+        analogWrite(EN4, 255);
+      }
+      else if(Incoming_value == &#39;W&#39;) {      //Checks whether value of Incoming_value is equal to 
+        Serial.println(Incoming_value);
+        analogWrite(EN1, 0); 
+        analogWrite(EN2   , 255);
+        analogWrite(EN4, 0); 
+        analogWrite(EN3, 255);         
+      }
+      else if(Incoming_value == &#39;S&#39;) {      //Checks whether value of Incoming_value is equal to 
+        Serial.println(Incoming_value);
+        analogWrite(EN1, 0);  
+        analogWrite(EN2, 0);
+        analogWrite(EN3, 0);  
+        analogWrite(EN4, 0);         
+      }
+}}</code></pre></div>
+<h4 id="notes-on-code">Notes on Code</h4>
+<p>This is manual control, and each key map to certain movement.</p>
+<h3 id="cad-files">CAD files</h3>
+<p>Solidworks Assembly, incomplete but enough to build with.
+<a href="files/Wolf.zip">Click to download zipped CAD file</a></p>
+<h2 id="future-consideration">Future Consideration</h2>
+<p>Weight and Size Reduction<br>
+Higher volatge for the motors<br>
+Better power source (the 7.5V pack wasn&rsquo;t reliable, there was a special combination of batteries in my house that worked.)
+Tolerance for 3D prints, they came out too type.</p>
+<h3 id="mistakes-010-would-not-recommend-anything-i-did">(Mistakes) 0/10 would not recommend anything I did</h3>
+<p>The 3D printed material is thicker than nominal values and resulted in fit issues where the motors were difficult to secure in their housing. Melting parts of the print with a soldering iron and hammering it in got the job done but it also somewhat damaged the gear train of the N20 motors.</p>
+<p>The weight of the hardware was significant and assembling it by hand took a very long time. If it&rsquo;s possible to ensure structural integrity while reducing the amount of mates, needs to be tested.</p>
+<h3 id="features-coming-soon">Features coming soon</h3>
+<p>Sounds, like barking and the Minecraft theme music via screeching piezobuzzer</p>
+<p>LED eyes, our kit had RGB LEDs that would be easy to light to do peaceful and aggressive modes.</p>
+<p>FASTER</p>
+<p>It still needs to autonomous, and the code for that would have to have randomized elements, and also sensors to prevent it from bumping into stuff, namely the ESP32-CAM.</p>
+
+          </article>
+
+          <div class="pagination">
+            
+              <a href="https://remilarius.github.io/PS70/blog/week12/">&laquo; Week 12: Casting and Molding</a>
+            
+            
+          </div>
+        </section>
+        <br>
+        <section class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view comments powered by <a href="http://disqus.com/?ref_noscript">Disqus</a>.</noscript>
+</section>
+
+      </section>
+
+    </main>
+    <footer class="row middle-xs center-xs">
+  <div class="col-xs-2">
+      <a target="_blank" rel="noopener" href=""><i class="icon icon-facebook"></i></a>
+    </div><div class="col-xs-2">
+      <a target="_blank" rel="noopener" href="https://github.com/Remilarius"><i class="icon icon-github"></i></a>
+    </div><div class="col-xs-2">
+      <a target="_blank" rel="noopener" href=""><i class="icon icon-linkedin"></i></a>
+    </div><div class="col-xs-2">
+      <a target="_blank" rel="noopener" href=""><i class="icon icon-stackoverflow"></i></a>
+    </div><div class="col-xs-2">
+      <a target="_blank" rel="noopener" href=""><i class="icon icon-twitter"></i></a>
+    </div>
+  <div class="col-xs-12">
+      <small>
+      
+      Copyright &copy; 2021 Joy Lin
+      
+      <div class="col-xs-12">
+          <small>Theme: <a href="https://github.com/kdevo/osprey-delight" target="_blank">osprey-delight</a> (fork of <a href="https://github.com/tomanistor/osprey" target="_blank">osprey</a>).</small>
+      </div>
+      </small>
+    </div>
+</footer>
+
+    
+
+
+
+
+
+
+  <script src="https://remilarius.github.io/PS70/js/bundle.min.39ae3d25b4813183a9708ec4e3146f9eda83dcd89f1f2e0258bc4302e806df7d.js" type="text/javascript"></script>
+  <script>handleNavBar( false )</script>
+
+  </body>
+</html>

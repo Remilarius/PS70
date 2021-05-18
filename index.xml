@@ -6,7 +6,7 @@
     <description>Recent content on Joy Lin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 30 Mar 2021 13:55:24 -0500</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://remilarius.github.io/PS70/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>https://remilarius.github.io/PS70/gallery/hugo/</link>
@@ -54,26 +54,54 @@ Check it out.</description>
     </item>
     
     <item>
+      <title>Final Project</title>
+      <link>https://remilarius.github.io/PS70/blog/final-project/</link>
+      <pubDate>Thu, 13 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/final-project/</guid>
+      <description>Demo Video   Motivation I really wanted something that moved around my house because I&amp;rsquo;ve been stuck inside for way to long. I wanted something autonomous to keep me company and since my mom wasn&amp;rsquo;t on board with having a dog, I decided to build one.
+Fabrication Since parts that needed to be lasercut or 3D printed needed to be designed and made first, decisions regarding how to spatially fit everything had to be made early on and all other parts had to conform.</description>
+    </item>
+    
+    <item>
+      <title>Week 12: Casting and Molding</title>
+      <link>https://remilarius.github.io/PS70/blog/week12/</link>
+      <pubDate>Wed, 21 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week12/</guid>
+      <description>I couldn&amp;rsquo;t find many small interesting objects around the house so I settled for tossing my d20 into the silicone.
+It didn&amp;rsquo;t require too much liquid since it was so small and I was on the cautious side. I also found the narrowest cup in the house to do this with.
+A little afraid to cut it out for now, I think it needs to harden a little more.
+I want to make ice dodecahderons with the mold, I don&amp;rsquo;t think it&amp;rsquo;d survive a session of DND but it might be fun if the numbers show up on the die.</description>
+    </item>
+    
+    <item>
+      <title>Week 11: Computer Programming</title>
+      <link>https://remilarius.github.io/PS70/blog/week11/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Week 10: Machine Building and End Effectors</title>
+      <link>https://remilarius.github.io/PS70/blog/week10/</link>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://remilarius.github.io/PS70/blog/week10/</guid>
+      <description>I spent most of this week on getting the 3D materials in.</description>
+    </item>
+    
+    <item>
       <title>Week 9: WiFi and Bluetooth (IoT)</title>
       <link>https://remilarius.github.io/PS70/blog/week-9/</link>
-      <pubDate>Tue, 30 Mar 2021 13:55:24 -0500</pubDate>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://remilarius.github.io/PS70/blog/week-9/</guid>
       <description>BLE I thought I&amp;rsquo;d try the BLE subset of the assignment since my team had been thinking about ways to control a drone and BLE was one of the options we were considering.
 I followed the instructions on the class website and uploaded the BLE_write program from examples
 For the LED specifically, there was this code also on the class website. /* Based on Neil Kolban example for IDF: https://github.com/nkolban/esp32-snippets/blob/master/cpp_utils/tests/BLE%20Tests/SampleWrite.cpp Ported to Arduino ESP32 by Evandro Copercini */ #include &amp;lt;BLEDevice.</description>
-    </item>
-    
-    <item>
-      <title>Week 12: Casting and Molding</title>
-      <link>https://remilarius.github.io/PS70/blog/week11/</link>
-      <pubDate>Tue, 30 Mar 2021 13:55:20 -0500</pubDate>
-      
-      <guid>https://remilarius.github.io/PS70/blog/week11/</guid>
-      <description>I couldn&amp;rsquo;t find many small interesting objects around the house so I settled for tossing my d20 into the silicone.
-It didn&amp;rsquo;t require too much liquid since it was so small and I was on the cautious side. I also found the narrowest cup in the house to do this with.
-A little afraid to cut it out for now, I think it needs to harden a little more.
-I want to make ice dodecahderons with the mold, I don&amp;rsquo;t think it&amp;rsquo;d survive a session of DND but it might be fun if the numbers show up on the die.</description>
     </item>
     
     <item>
@@ -155,24 +183,6 @@ Trimaran I did not concern myself with tolerancing and did all the parameters in
 Process I was lured into using a static site generator instead of the usual HTML and CSS because it woulld require less coding.
 We were given a choice between Hugo or Jekyll and Andrew and I chose the same theme in Hugo, Osprey Delight, to share the burden of learning to manipulate and Sean helped us set it up.
 We didn&amp;rsquo;t read the READme and that&amp;rsquo;s where the problems started.</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://remilarius.github.io/PS70/blog/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://remilarius.github.io/PS70/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://remilarius.github.io/PS70/blog/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://remilarius.github.io/PS70/blog/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>
