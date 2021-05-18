@@ -9,6 +9,7 @@ I couldn't find many small interesting objects around the house so I settled for
 It didn't require too much liquid since it was so small and I was on the cautious side. I also found the narrowest cup in the house to do this with.
 
 ![Dicemold](dicemold.jpg)
+![Dicemold](dicemoldafter.jpg)
 
 A little afraid to cut it out for now, I think it needs to harden a little more.
 

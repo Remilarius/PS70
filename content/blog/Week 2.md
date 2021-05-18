@@ -2,11 +2,6 @@
 author = "Hugo Authors"
 title = "Week 2: 2D Design & Cutting"
 date = "2021-02-01"
-description = "A brief description of Hugo Shortcodes"
-tags = [
-    "shortcodes",
-    "privacy",
-]
 +++
 
 ## Part 1: Circuits
@@ -40,6 +35,10 @@ I worked with Haeyun and Kathryn and they added decoratives to the ship like peo
 Haeyun was able to pick up the lasercut pieces and assemble the boat without too much trouble. (02/08/2021)
 
 [Click to download zipped file](files/Trimaran.zip)
+
+### Notes
+
+It seems I didn't have to worry about tolerancing as much as I thought I did, Haeyun said the pieces fit together pretty nicely.
 
 <!--![Zipped File](Trimaran.zip)-->
 <!---![Center Mast](trimaran/centermast.png)![Center Mast Clip](trimaran/centermastclip.png)--->
