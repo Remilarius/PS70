@@ -12,6 +12,9 @@ draft: false
 
 I really wanted something that moved around my house because I've been stuck inside for way to long. I wanted something autonomous to keep me company and since my mom wasn't on board with having a dog, I decided to build one.
 
+## Project Vision
+
+I originally wanted to stay very true to the animation in game, meaning articulated joints and head/mouth, but I quickly had to scale down due to the limitations of my knowledge, equipment, and time.
 
 ## Fabrication
 
@@ -127,8 +130,10 @@ Solidworks Assembly, incomplete but enough to build with.
 
 Weight and Size Reduction  
 Higher volatge for the motors  
-Better power source (the 7.5V pack wasn't reliable, there was a special combination of batteries in my house that worked.)
+Better power source (the 7.5V pack wasn't reliable, there was a special combination of batteries in my house that worked.)  
 Tolerance for 3D prints, they came out too type.
+
+Given enough time, I think I would've scaled it down and used timing belts so that I wouldn't constrained by how the N20 motor and the wheel fit together.
 
 ### (Mistakes) 0/10 would not recommend anything I did
 
