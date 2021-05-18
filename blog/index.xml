@@ -73,7 +73,8 @@ For the LED specifically, there was this code also on the class website. /* Base
       <pubDate>Sun, 07 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://remilarius.github.io/PS70/blog/week-7/</guid>
-      <description></description>
+      <description>Still messing the microphone and TFT display, but in the meantime I had seperately accomplish this goal with other equipment actually.
+The BNO085 is an IMU that can be connected to an Arduino, like MKRZero or Wifi 1010, and it&amp;rsquo;s an accelerometer like the one in our kit. It can read the XYZ or roll, pitch, yaw of the board to determine the orientation and outputs the information to a serial monitor.</description>
     </item>
     
     <item>
@@ -113,7 +114,8 @@ TinkerCad Mockup w/Single pin I built a quick circuit in TinkerCad to make sure 
       <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://remilarius.github.io/PS70/blog/week-3/</guid>
-      <description>Fishing reel   Create a kinetic sculpture. Include circuitry to move your sculpture. Control the sculpture with a circuit on a breadboard that uses components in the kit (e.g., resistors, potentiometer). Use a multimeter to measure the voltages in your circuit. Use Ohm&amp;rsquo;s law to calculate current through the circuit. Use the Microcontroller Analog in (ADC) to measure the voltage of a potentiometer, or other voltage-divider-based sensor. (Optional) Use tools like TinkerCAD to simulate your circuit and/or tools like Fusion 360 to design and simulate your mechanism.</description>
+      <description>Fishing reel I decided to make an automatic fishing reel, scaled down.
+Circuit This is the circuit built in TinkerCAD   Layout I used the potentiometer to control the speed of the reel, ended up being quite a challenge since I only had two hands.</description>
     </item>
     
     <item>
